@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arohan Health Care - Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Polyfills for IE11 -->
+  <!--[if lte IE 11]>
+  <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+<!--[if lte IE 11]>
+<div style="background:#ffcc00;color:#000;padding:10px;text-align:center;">
+    You are using an outdated browser. Some features may not work. 
+    <a href="https://browsehappy.com/" target="_blank">Update your browser</a>.
+</div>
+<![endif]-->
+
+<header>
+  <img src="images/logo.png" alt="Arohan Health Care Logo" style="height:50px;">
+  <h1>Contact Arohan Health Care</h1>
+  <nav>
+    <a href="/Arohan-Health-Care/frontend.html">Home</a> |
+    <a href="/Arohan-Health-Care/contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>Contact Us</h2>
+    <p>Email: contact@Arohan-Health-Care.com</p>
+    <p>Phone: +91 12345 67890</p>
+
+    <form method="POST" action="contact.php">
+      <label>Name:
+        <input type="text" name="name" required>
+      </label><br>
+
+      <label>Email:
+        <input type="email" name="email" required>
+      </label><br>
+
+      <label>Message:<br>
+        <textarea name="message" required></textarea>
+      </label><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Arohan Health Care. All rights reserved.</p>
+</footer>
+
+<noscript>
+  <p style="color:red; text-align:center;">
+    JavaScript is disabled. Form will still submit via standard POST.
+  </p>
+</noscript>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
